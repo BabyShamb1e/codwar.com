@@ -74,6 +74,7 @@ ul{
 
 .list{
     display: flex;
+    opacity: 0.8;
 }
 
 .list__item + .list__item{
@@ -88,10 +89,14 @@ ul{
     align-items: center;
     border-radius: 50%;
     transition: background .3s;
+    
 
 }
 .list__link:hover{
     background-color:#528a63;
-    opacity: 0.8;
+}
+
+svg path{
+    fill: #c2cfa1;
 }
 
