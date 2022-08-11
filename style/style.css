@@ -1,22 +1,35 @@
 
 @viewport {
-    width: device-width ;
     zoom: 1.0 ;
   }
+html{
+    max-width: 100%;
+}
 
 body{
     font-family: Futura, Roboto, Arial;
     background-image: url(../images/background.jpeg);
-    background-position: center;    
-    background-size: cover;
-    width: 100%;
-    height: auto;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;   
+
+
+
 }
 
 h2{
     font-size: 9rem;
     font-weight: bold;
     margin-block-end: 0.23em;
+}
+
+
+.container{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -37,18 +50,7 @@ h2{
     color: #BB0000;
 }
 
-.container{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    
-}
 
-.header{
-    
-}
 
 .countdown{
     display: flex;
@@ -65,22 +67,6 @@ h2{
 .second{
     font-size: 3rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ul{
     list-style: none;
@@ -111,7 +97,5 @@ ul{
     background-color: #BB0000;
 }
 
-svg path{
-    fill: #c2cfa1;
-}
+
 
