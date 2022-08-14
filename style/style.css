@@ -7,10 +7,12 @@
     box-sizing: border-box;
 }
 
-  html{
+html{
     min-width: 300px;
     width: 100%;
     min-height: 500px;
+    text-align: center;
+    text-decoration: none;
    
 }
 body{
@@ -28,12 +30,16 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    column-gap: 10vw;
 }
 
 
 .head_link{
     text-decoration: none;
     color: #BB0000;
+    width: 100%;
+    justify-self: center;
+
 }
 
 .header{
@@ -59,8 +65,9 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    text-align: center;
     color: #f0f6e3 ;
+    margin-top: 30px;
+    padding: auto;
     
 }
 
@@ -102,7 +109,7 @@ ul{
 
 footer{
     width: 100%;
-    position:sticky;
+    position: sticky;
     display: flex;
     justify-content: center;
     margin-top: 100px;
